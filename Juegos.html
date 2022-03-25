@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos.al</title>
+    <script src="./JQUERY/jquery-3.6.0.min.js"></script>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+  </head>
+<body class="fondo">
+    <!--ENCABEZADO-->
+    <header>
+        <div class="container-fluid-sm bg-primary text-white text-center">
+            <div class="display-2 text-*-center text-monospace">
+              MIS JUEGOS
+            </div>
+        </div>
+    </header>
+    <!--BARRA DE NAVEGACIÓN-->
+    <nav class="content-fluid-sm bg-dark">
+      <div class="navbar navbar-expand-sm navbar-dark">
+          <a class="navbar-brand" href="./Index.html">INICIO</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#contenido" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="contenido">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="./Puntajes.html">PUNTAJES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./QuienesSomos.html">¿QUIÉNES SOMOS?</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.facebook.com/alexissebastian.hernandezromero.5">FACEBOOK</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <article>
+        <div class="container-fluid jumbotron-sm bg-success text-center text-monospace">
+          <h5>
+            En este sitio web podrás jugar algunos de los juegos más populares de todos los tiempos.
+            Vuelve a tu niñez, y recuerda todos esos momentos de alegría que viviste.      
+          </h5> 
+        </div>
+        <div class="row ">
+          <div class="col-sm-2"></div>
+          <!-- Link to Arkanoid -->
+            <div class="col-sm-4">
+              <input type="image" class="img-thumbnail imagen" src="./IMAGES/arkanoid.jpeg" data-toggle="modal" data-target="#myModal1" data-toggle="modal">
+              <!-- La Modal -->
+            </div>
+            <div class="modal fade" id="myModal1">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title text-monospace">Arkanoid</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    Este juego consiste en destruir los bloques golpeándolos con la pelota, para ganar destruye todos los bloques antes de quedarte sin vidas. 
+                    Tienes 3 oportunidades. ¿ESTÁS LISTO?
+                  </div>
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a href="./arkanoid.html" target="_blank">
+                      <button type="button" class="btn btn-success">INICIAR</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Link to Laberinto -->
+            <div class="col-sm-4">
+              <input type="image" class="img-thumbnail imagen" src="./IMAGES/laberinto.png" data-toggle="modal" data-target="#myModal2" data-toggle="modal">
+              <!-- La Modal -->
+            </div>
+            <div class="modal fade" id="myModal2">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title text-monospace">Laberinto</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                    Este juego consiste en recorrer el camino correcto para salir del laberinto. 
+                    ¿Te animas a jugarlo?
+                  </div>
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <a href="./laberinto.html" target="_blank">
+                      <button type="button" class="btn btn-success">INICIAR</button>
+                    </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2"></div>
+          </div>
+        </div>
+    </article>
+    <footer>
+      <div class="container-fluid-sm bg-dark text-white pl-4">
+        <div class="row">
+          <div class="col sm-6 text-center">
+            <p>
+              Agradecimientos
+            </p>
+            <p>
+              Este proyecto fue elaborado para la materia de programación web.
+            </p>
+            <p>
+              25-03-2022
+            </p>
+          </div>
+          <div class="col sm-6 text-center">
+            <p>
+              <strong>COPYRIGHT 2022.</strong>
+            </p>
+            <p>
+              ALEXIS SEBASTIAN HERNANDEZ ROMERO</span>
+            </p>
+        </div>
+      </div>
+      </div>
+    </footer>
+</body>
+</html>
